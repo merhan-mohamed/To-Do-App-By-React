@@ -32,8 +32,8 @@ class AddItem extends Component {
         return(
             <div>
                 <form onSubmit={this.handleSubmit}>
-                    <input type="text" placeholder="Enter Name" id="name"  onChange={this.handleChange}  value={this.state.name} />
-                    <input type="number" placeholder="Enter Age" id="age" onChange={this.handleChange}  value={this.state.age}/>
+                    <input type="text" placeholder="Name" id="name"  onChange={this.handleChange}  value={this.state.name} />
+                    <input type="number" placeholder="Age" id="age" onChange={this.handleChange}  value={this.state.age}/>
                     <input type="submit" value="Add" />
                 </form>
             </div>

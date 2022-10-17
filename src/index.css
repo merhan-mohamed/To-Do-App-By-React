@@ -53,7 +53,7 @@ body
 .ListItems span.name,
 form input[type="text"]
   {
-    width:60%
+    width:40%
   }
 
 .ListItems span.age,
@@ -65,7 +65,7 @@ form input[type="number"]
 .ListItems span.action,
 form input[type="submit"]
   {
-    width:10%
+    width:30%
   }
 
 .ListItems span.icon
@@ -80,6 +80,7 @@ form input
   background: #ebebeb;
   border: transparent ;
   border:0.3px solid #ccc;
+  text-align: center;
   
 }
 

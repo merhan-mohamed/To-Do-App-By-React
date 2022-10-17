@@ -4,7 +4,7 @@ import AddItem from "./Components/AddItems/Additems"
 class App extends Component {
   state = {
     items: [
-      {id:1,name: "Dana" , age: 25},
+      {id:1,name: "ahmed" , age: "15"},
       
     ]
   }
